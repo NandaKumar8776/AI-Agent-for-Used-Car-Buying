@@ -22,7 +22,6 @@ AI-Agent-for-Used-Car-Buying/
   ├── graph/            # Workflow and node logic
   ├── memory/           # Vector store and BM25 logic
   ├── prompts/          # Prompt templates for each node
-  ├── testing/          # Test scripts (placeholders)
   ├── tools/            # Pipelines for LLM, RAG, web crawling
   ├── utils/            # Helper functions
   ├── main.py           # Entry point example
@@ -60,11 +59,6 @@ AI-Agent-for-Used-Car-Buying/
 
 - **Custom Queries:**
   Modify the `question` variable in `main.py` to test different queries.
-
-
-## Testing
-
-- Placeholder test scripts are in the `testing/` directory. Add your own tests as needed.
 
 ## Dependencies
 
