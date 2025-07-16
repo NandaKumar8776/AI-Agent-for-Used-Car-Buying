@@ -16,13 +16,12 @@ This project is an advanced, modular Retrieval-Augmented Generation (RAG) system
 ## Directory Structure
 
 ```
-Assignment-2/
+AI-Agent-for-Used-Car-Buying/
   ├── config/           # Environment setup
   ├── data/             # Source data (PDF guide)
   ├── graph/            # Workflow and node logic
   ├── memory/           # Vector store and BM25 logic
   ├── prompts/          # Prompt templates for each node
-  ├── testing/          # Test scripts (placeholders)
   ├── tools/            # Pipelines for LLM, RAG, web crawling
   ├── utils/            # Helper functions
   ├── main.py           # Entry point example
@@ -35,7 +34,7 @@ Assignment-2/
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-url>
-   cd Assignment-2
+   cd AI-Agent-for-Used-Car-Buying
    ```
 
 2. **Install dependencies:**
@@ -60,11 +59,6 @@ Assignment-2/
 
 - **Custom Queries:**
   Modify the `question` variable in `main.py` to test different queries.
-
-
-## Testing
-
-- Placeholder test scripts are in the `testing/` directory. Add your own tests as needed.
 
 ## Dependencies
 
