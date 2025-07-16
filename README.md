@@ -47,11 +47,8 @@ AI-Agent-for-Used-Car-Buying/
    ```
 
 3. **Set up environment variables:**
-   - Copy your API keys and prompt file paths into a `.env` file in the root directory. Required variables (see `config/env_setup.py`):
+   - Copy your API keys and prompt file paths into a `.env` file in the root directory. Required variables (check `config/env_setup.py`):
 
-
-4. **Data:**
-   - Ensure `data/The-Ultimate-Used-Car-Buying-Guide.pdf` is present (already included).
 
 ## Usage
 
