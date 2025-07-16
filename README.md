@@ -4,6 +4,10 @@
 
 This project is an advanced, modular Retrieval-Augmented Generation (RAG) system designed to answer questions about used car buying. It leverages state-of-the-art LLMs, hybrid search (BM25 + vector), and web crawling to provide accurate, context-aware responses. The system is orchestrated using [LangGraph](https://github.com/langchain-ai/langgraph) and [LangChain](https://github.com/langchain-ai/langchain).
 
+## Workflow
+
+![alt text](https://github.com/NandaKumar8776/AI-Agent-for-Used-Car-Buying/blob/main/output.png "LangGraph Workflow")
+
 ## Features
 
 - **Supervisor Node:** Classifies user queries and routes them to the appropriate processing node.
