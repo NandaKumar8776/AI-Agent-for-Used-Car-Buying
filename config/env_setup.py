@@ -21,3 +21,6 @@ os.environ["SUPERVISOR_PROMPT_DIR"] = os.getenv("SUPERVISOR_PROMPT_DIR")
 os.environ["RAG_PROMPT_DIR"] = os.getenv("RAG_PROMPT_DIR")
 os.environ["LLM_PROMPT_DIR"] = os.getenv("LLM_PROMPT_DIR")
 os.environ["WEB_PROMPT_DIR"] = os.getenv("WEB_PROMPT_DIR")
+
+# PDF File location
+os.environ["FILE_DIR"] = os.getenv("FILE_DIR")

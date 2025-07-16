@@ -1,7 +1,8 @@
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_community.document_loaders.parsers import TesseractBlobParser
+import os
 
-file_path = r"D:\Personal\Agentic AI Course\Agnetic_AI\4-Langgraph\Assignment-2\data\The-Ultimate-Used-Car-Buying-Guide.pdf"
+file_path = os.environ["FILE_DIR"]
 
 image_parser = TesseractBlobParser()
 

@@ -19,11 +19,11 @@ def router(state:State):
     route = getattr(route, 'content', route)
 
     if "used car" in route.lower():
-        return "Used Car Call"
+        return "Used Car Buying Guide- Context"
     elif "car dealership inventory website" in route.lower():
-        return "Car Inventory Call"
+        return "Check Car Inventory"
     else:
-        return "LLM Call"
+        return "No Context Response"
 
 # Adding node functions to the workflow (Each with data validation -in and -out, hybrid search as needed)
 
@@ -43,9 +43,9 @@ workflow.add_conditional_edges(
     "Supervisor",
     router,
     {
-        "Used Car Call": "RAG_call",
-        "Car Inventory Call": "Crawler_call",
-        "LLM Call": "LLM_call",
+        "Used Car Buying Guide- Context": "RAG_call",
+        "Check Car Inventory": "Crawler_call",
+        "No Context Response": "LLM_call",
     }
 )
 
