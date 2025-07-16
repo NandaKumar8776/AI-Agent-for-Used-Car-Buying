@@ -16,7 +16,7 @@ This project is an advanced, modular Retrieval-Augmented Generation (RAG) system
 ## Directory Structure
 
 ```
-Assignment-2/
+AI-Agent-for-Used-Car-Buying/
   ├── config/           # Environment setup
   ├── data/             # Source data (PDF guide)
   ├── graph/            # Workflow and node logic
@@ -35,7 +35,7 @@ Assignment-2/
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-url>
-   cd Assignment-2
+   cd AI-Agent-for-Used-Car-Buying
    ```
 
 2. **Install dependencies:**
